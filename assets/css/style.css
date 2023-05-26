@@ -74,9 +74,11 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: white;
 }
+
 #hero-image {
     height: 600px;
     width: 100vw;
@@ -111,9 +113,12 @@ h2 {
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgb(241, 109, 107, .7);
-    bottom: 30px; /* need to be specified to go to the bottom*/
-    right: 150px; /* need to be specified to go to the right*/
-    position: absolute; /*allow absolute changes*/
+    bottom: 30px;
+    /* need to be specified to go to the bottom*/
+    right: 150px;
+    /* need to be specified to go to the right*/
+    position: absolute;
+    /*allow absolute changes*/
 }
 
 /* Ethos section*/
@@ -147,27 +152,34 @@ hr {
     margin-bottom: 5px;
 }
 
-.about-heading{
+.about-heading {
     width: 60%;
     line-height: 20px;
     margin-bottom: 50px;
     clear: both;
 }
 
-.about-heading h2{
-    float: left;
-}
 
-.about-heading p{
-    display: inline-block;
-    text-align: justify;
-}
-
-.left-about-heading{
+.left-about-heading {
     float: right;
 }
 
-.right-about-heading{
+.left-about-heading h2 {
+    text-align: left;
+}
+
+.left-about-heading p {
+    text-align: left;
+}
+
+.right-about-heading {
     float: left;
 }
 
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
