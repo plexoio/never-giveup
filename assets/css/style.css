@@ -127,14 +127,12 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: yellow;
 }
 
 #center-about {
@@ -142,3 +140,34 @@ h2 {
     background-color: red;
     display: inline-block;
 }
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.about-heading{
+    width: 60%;
+    line-height: 20px;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+.about-heading h2{
+    float: left;
+}
+
+.about-heading p{
+    display: inline-block;
+    text-align: justify;
+}
+
+.left-about-heading{
+    float: right;
+}
+
+.right-about-heading{
+    float: left;
+}
+
