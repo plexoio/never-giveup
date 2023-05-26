@@ -40,7 +40,8 @@ h2 {
     letter-spacing: 4px;
 }
 
-#menu , #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -61,4 +62,36 @@ h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Hero image*/
+
+#hero-outer {
+    width: 100vw;
+    overflow: hidden;
+    /* keep content in its container when zooming, alternative to clear:both*/
+}
+
+#hero-image {
+    height: 600px;
+    width: 100vw;
+    background: url(../images/hero-image.webp) no-repeat center center;
+
+    /*calling and setting the animation*/
+    animation-name: hero-zooming;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    /*ends up in forward or the one selected, last keyframe*/
+}
+
+/* Hero Animation*/
+
+@keyframes hero-zooming {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
