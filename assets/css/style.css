@@ -217,3 +217,12 @@ hr {
         transform: scale(1.15);
     }
 }
+
+/* Activities section*/
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
