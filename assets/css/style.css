@@ -77,6 +77,9 @@ h2 {
 #cover-text,
 #cover-text h2 {
     color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 #hero-image {
@@ -225,4 +228,26 @@ hr {
     background-size: cover;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
+    height: 300px;
+    width: 20%;
+    float: left; /* Convert them all to inline-blocks by default and push them to the left horizontally*/
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border-right: 2px solid white;
+    box-sizing: border-box; /* Include all values into the total width of the element*/
+    transition: 0.3s;
+}
+
+#times div:hover {
+    background-color: rgb(0, 0, 0, .8);
+    transition: 0.3s;
+}
+#times h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
