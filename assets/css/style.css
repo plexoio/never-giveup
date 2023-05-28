@@ -238,7 +238,7 @@ hr {
     float: left; /* Convert them all to inline-blocks by default and push them to the left horizontally*/
     padding: 30px 0 0 10px;
     text-align: center;
-    border-right: 2px solid white;
+    border: 2px solid white;
     box-sizing: border-box; /* Include all values into the total width of the element*/
     transition: 0.3s;
 }
@@ -250,4 +250,28 @@ hr {
 #times h2 {
     color: #fafafa;
     margin-bottom: 20px;
+}
+
+/*Social Media Footer*/
+
+.media-footer {
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+.media-footer li{
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+i {
+    color: #fefefe;
+    transition: 0.3s;
+}
+
+i:hover {
+    color: #ccc;
+    transition: 0.3s;
 }
