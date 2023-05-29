@@ -11,13 +11,15 @@
     }
 
     .right-about-heading {
-        border-left:1px solid #ccc;
+        border-right:1px solid #ccc;
+        padding-right: 5px;
     }
     .right-about-heading > h2 {
         text-align: right;
     }
     .left-about-heading {
-        border-right:1px solid #ccc;
+        border-left:1px solid #ccc;
+        padding-left: 5px;
     }
     #center-about {
         clear: both;
@@ -44,5 +46,22 @@
     #menu {
         display: inline-block;
         float: none;
+    }
+    #hero-image {
+        width: 100%;
+    }
+    #cover-text {
+        left: 0;
+    }
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .left-about-heading,.right-about-heading {
+        width: inherit;
+    }
+    .left-about-heading p, .right-about-heading p {
+        text-align: justify;
     }
 }
