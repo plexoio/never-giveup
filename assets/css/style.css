@@ -300,6 +300,9 @@ i:hover {
     /*remove vertical margin*/
 }
 
+#gallery > h2 {
+    padding: 30px;
+}
 #gallery>img {
     width: 100%;
 }
