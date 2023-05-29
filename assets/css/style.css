@@ -274,3 +274,16 @@ i:hover {
     color: #ccc;
     transition: 0.3s;
 }
+
+/* Gallery page*/
+
+#gallery {
+    clear: both; /* clear overlapping to other elements*/
+    line-height: 0; /*remove horizontal margin*/
+    column-count: 4;
+    column-gap: 0; /*remove vertical margin*/
+}
+
+#gallery > img {
+    width: 100%;
+}
