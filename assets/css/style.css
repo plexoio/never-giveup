@@ -266,12 +266,12 @@ hr {
 }
 
 i {
-    color: #fefefe;
+    color: #3a3a3a;
     transition: 0.3s;
 }
 
 i:hover {
-    color: #ccc;
+    color: rgb(241, 109, 107, .8);
     transition: 0.3s;
 }
 
@@ -286,4 +286,8 @@ i:hover {
 
 #gallery > img {
     width: 100%;
+}
+
+#gallery > img:hover {
+    opacity: 0.8;
 }

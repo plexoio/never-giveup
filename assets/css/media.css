@@ -1,0 +1,48 @@
+/* Screen Size from 1200px down*/
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #left-about, #right-about {
+        width: 100%;
+    }
+
+    .right-about-heading {
+        border-left:1px solid #ccc;
+    }
+    .right-about-heading > h2 {
+        text-align: right;
+    }
+    .left-about-heading {
+        border-right:1px solid #ccc;
+    }
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+    }
+    hr {
+        display: none;
+    }
+}
+
+/* Screen Size from 950px down*/
+
+@media screen and (max-width: 950px) {
+    header {
+        text-align: center;
+    }
+    #logo {
+        display: block;
+        text-align: center;
+        float: none;
+        margin-left: 0;
+    }
+    #menu {
+        display: inline-block;
+        float: none;
+    }
+}
