@@ -275,7 +275,7 @@ hr {
 .media-footer li {
     display: inline-block;
     font-size: 2rem;
-    padding-left: 2rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .media-footer i {
