@@ -8,11 +8,11 @@
     <meta name="description" content="Official website for enthusiastic runners in New York Club">
     <meta name="keywords"
         content="never, give up, new york, running, runners, amateur, enthusiastic, Official, Life, Club">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media.css">
-        <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
-        <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
-        <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
     <title>Never Give up!</title>
 </head>
 
@@ -23,24 +23,39 @@
                 <h1 id="logo">Never Give Up!</h1>
             </a>
             <ul id="menu">
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="signup.html" class="active">Sign Up</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="index.html">Index</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="gallery">
-        <h2>Insight</h2>
-        <img src="assets/images/athletes.jpg" alt="two people running together">
-        <img src="assets/images/girls.jpg" alt="three girls at charity paint festival">
-        <img src="assets/images/runner3.jpg" alt="a man jogging on the beach">
-        <img src="assets/images/man.jpg" alt="man at charity paint running festival">
-        <img src="assets/images/runner1.jpg" alt="girl running thorugh phoenix park">
-        <img src="assets/images/runner2.jpg" alt="runners competing in marathon">
-        <img src="assets/images/runner4.jpg" alt="another girl running alone at the beach">
-        <img src="assets/images/running_gang.jpg" alt="marathon on a rainy day">
-        <img src="assets/images/mud-run.jpg" alt="two girls in mud after the mud running championship">
+    <section class="form">
+
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <!-- Data Inputs-->
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+
+            <!-- Radio buttons-->
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+
+            <!-- Submit button-->
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
+
     </section>
 
     <footer>
