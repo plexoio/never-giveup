@@ -270,6 +270,8 @@ hr {
     background-color: #3a3a3a;
     text-align: center;
     padding: 30px 0;
+    height: 75px;
+    line-height: 2.5;
 }
 
 .media-footer li {
