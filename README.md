@@ -13,7 +13,7 @@ The custom features I've incorporated include:
 - Strategic Use of Keywords
 - Responsive Design via Media Queries
 
-Furthermore, I've incorporated an offline Fontawesome kit (current version V6.4.0, released March 2023) to enrich the visual appeal of the project.
+Furthermore, I've incorporated an offline Fontawesome kit `current version V6.4.0, released March 2023` to enrich the visual appeal of the project.
 
 Rest assured, the code has been meticulously indented and has undergone thorough validation using `HTML & CSS validator`, ensuring a clean, optimized, and error-free codebase.
 
