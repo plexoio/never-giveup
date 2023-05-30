@@ -19,6 +19,6 @@ Rest assured, the code has been meticulously indented and has undergone thorough
 
 This current iteration is designed exclusively for learning and demonstration purposes. While it's fully functional and ready for use, it is not available for public deployment.
 
-![Responsive Mockup image](https://github.com/plexoio/never-giveup/blob/main/documentation/assets/img/mockup.png)
+![Responsive Mockup image](https://github.com/plexoio/never-giveup/blob/main/documentation/assets/images/mockup.png)
 
 **Preview Link**: [Never Giveup!](https://plexoio.github.io/never-giveup/)
